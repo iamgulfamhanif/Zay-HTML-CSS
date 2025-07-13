@@ -1,0 +1,226 @@
+html{
+    font-family: sans-serif;
+}
+
+.nav-container{
+    background-color: white ;
+    top: 0px;
+    position: sticky;
+    display: flex;
+    content: "";
+    clear: both;
+}
+.logo{
+    font-size: 20px;
+    margin-left: 15%;
+}
+
+.nav-list{
+    justify-content: space-between;
+    width: 20%;
+    margin-left: 16%;
+    align-items: center;
+    display: flex;
+}
+
+.list-item{
+    font-weight: bold;
+    text-decoration: none;
+    margin: 5px;
+    list-style: none;
+    
+}
+a{  
+    text-decoration: none;
+    color: rgb(50, 49, 49);
+}
+
+.nav-images-container{
+    margin-left: 12%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+.nav-images{
+    width: 20px;
+
+}
+
+.header-container{
+    display: flex;
+    background: rgb(238, 237, 237);
+    padding: 100px;
+}
+
+.header{
+    width: 35%;
+    margin-left: 08%;
+
+}
+
+.shoes{
+    width: 30%;
+    margin-left:2.5%;
+
+
+}
+
+.categories-container{
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+}
+
+.categories-text{
+    width: 20%;
+    margin-left: 40%;
+    color: rgb(102, 101, 101);
+    
+
+}
+
+.categories-images-container{
+    display: flex;
+    width: 48%;
+    margin-left: 28%;
+    justify-content: space-between;
+
+}
+.categories-image{
+    border-radius: 100px;
+    width: 200px;
+}
+
+.go-shop{
+    border: none;
+    width: 80%;
+    margin-top: 2px;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+
+}
+.go-shop:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.label-goshop{
+    margin-left: 25%; 
+    width: 50%;margin-top: 2%;
+    padding: 5px;
+}
+
+
+.categories-label{
+    color: black;
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+.featured-container{
+    padding: 45px;
+    margin-top: 10%;
+    display: flex;
+    width: 94%;
+    background: rgb(238, 237, 237);
+    flex-direction: column;
+
+}
+
+.featured-images-container{
+    display: flex;
+    width: 68%;
+    margin-left: 15%;
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+
+.featured-images{
+    justify-content: space-between;
+    width: 300px;
+    display: flex;
+}
+
+
+
+
+.footer-container{
+    display: flex;
+    width: 100%;
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
+
+.zay-shop-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 17%;
+    margin-top: 3%;
+
+
+}
+
+.loc-phone-mail-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.product-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-top: 3%;
+    
+
+
+}
+
+
+.product-list{  
+    list-style: none;
+
+}
+
+.product-list-item{
+    margin-top: 8px;
+}
+
+.further-info-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-left: 9%;
+
+
+}
+
+.further-info-list{
+    list-style: none;
+
+
+}
+
+
+.further-info-list-item{
+    margin-top: 8px;
+}
+
+.contact-icons-container{
+    margin-top: 20%;
+    margin-left: 16%;
+    display: flex;
+
+}
