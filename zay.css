@@ -2,14 +2,7 @@ html{
     font-family: sans-serif;
 }
 
-.nav-container{
-    background-color: white ;
-    top: 0px;
-    position: sticky;
-    display: flex;
-    content: "";
-    clear: both;
-}
+
 .logo{
     font-size: 20px;
     margin-left: 15%;
